@@ -8,8 +8,8 @@ from helpers import *
 
 TEST_RUN = False
 PARENT_URL = 'http://www.cv.lt/employee/announcementsAll.do?regular=true&ipp=200'
-OUTPUT_FILENAME = "/jobad_scrape/data/" + timestamp_extension() + ".txt"
-LOG_FILENAME = "/jobad_scrape/log/ads_log_cvlt.txt"
+OUTPUT_FILENAME = "/data/" + timestamp_extension() + ".txt"
+LOG_FILENAME = "/log/ads_log_cvlt.txt"
 sleep_time = 5  # seconds
 
 outputFilepath = os.getcwd() + OUTPUT_FILENAME
